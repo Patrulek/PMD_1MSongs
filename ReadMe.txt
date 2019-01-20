@@ -1,40 +1,19 @@
-========================================================================
-    CONSOLE APPLICATION : PMD_1MSongs Project Overview
-========================================================================
+Projekt zaliczeniowy na przedmiot "Przetwarzanie masywnych danych" - semestr 1. informatyka, inteligentne systemy wspomagania decyzji, PP (2017).
 
-AppWizard has created this PMD_1MSongs application for you.
+Treść projektu:
+Wykorzystać okrojony i zmodyfikowany zbiór danych Million Song Dataset (MSD):
+• unique_tracks.txt — zawiera informacje takie jak identyfikator utworu,
+identyfikator wykonania, nazwę artysty oraz tytuł utworu,
+• triplets_sample_20p.txt — zawiera identyfikator użytkownika, identyfikator utworu oraz datę odsłuchania.
 
-This file contains a summary of what you will find in each of the files that
-make up your PMD_1MSongs application.
+Przy pomocy dowolnej techonologii programistycznej/bazodanowej otrzymaj informacje na temat:
+1. Ranking popularności piosenek,
+2. Ranking użytkowników ze względu na największą liczbę odsłuchanych
+unikalnych piosenek,
+3. Artysta z największą liczbą odsłuchań,
+4. Sumaryczna liczba odsłuchań w podziale na poszczególne miesiące,
+5. Wszyscy użytkownicy, którzy odsłuchali wszystkie trzy najbardziej popularne piosenki zespołu Queen.
 
-
-PMD_1MSongs.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-PMD_1MSongs.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
-
-PMD_1MSongs.cpp
-    This is the main application source file.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named PMD_1MSongs.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+Pliki z danymi można znaleźć pod linkami:
+http://www.cs.put.poznan.pl/kdembczynski/lectures/data/unique_tracks.zip
+http://www.cs.put.poznan.pl/kdembczynski/lectures/data/triplets_sample_20p.zip
